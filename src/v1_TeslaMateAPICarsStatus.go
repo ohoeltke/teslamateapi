@@ -121,6 +121,7 @@ func startMQTT() (*statusCache, error) {
 	MQTTClientId := getEnv("MQTT_CLIENTID", randstr.String(4))
 	// MQTTInvCert := getEnvAsBool("MQTT_TLS_ACCEPT_INVALID_CERTS", false)
 
+	
 	mqttURL := fmt.Sprintf("%s://%s:%d", MQTTProtocol, MQTTHost, MQTTPort)
 
 	// create options for the MQTT client connection
