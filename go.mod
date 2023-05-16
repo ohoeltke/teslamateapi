@@ -1,4 +1,4 @@
-module github.com/tobiasehlert/teslamateapi
+module github.com/ohoeltke/teslamateapi
 
 go 1.19
 
