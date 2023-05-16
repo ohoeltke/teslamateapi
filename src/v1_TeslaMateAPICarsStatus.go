@@ -104,7 +104,6 @@ func startMQTT() (*statusCache, error) {
 
 	// default values that get might get overwritten..
 	MQTTPort := 0
-	MQTTUserstring := ""
 	MQTTProtocol := "tcp"
 
 	// creating connection string towards mqtt
