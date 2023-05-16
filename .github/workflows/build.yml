@@ -25,9 +25,7 @@ jobs:
         id: docker_meta
         uses: docker/metadata-action@v4
         with:
-          images: |
-            tobiasehlert/teslamateapi
-            ghcr.io/tobiasehlert/teslamateapi
+          images: ghcr.io/ohoeltke/teslamateapi
           tags: |
             type=edge
             type=ref,event=branch,enable=${{ (github.ref != 'refs/heads/main') }}
